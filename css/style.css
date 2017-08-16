@@ -1,0 +1,25 @@
+input[type="text"]{
+	height: 40px;
+	font-size: 20px;
+}
+#show{
+	margin:auto;
+	text-align: center;
+
+}
+.footer{
+	background-color: #3A92DC;
+	width: 100%;
+	height: 60px;
+}
+#errorcity{
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+}
+.table{
+	text-align: center;
+
+}
+ td { font-weight: bold; font-size: 18px;}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SF Movies</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap_paper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="js/funtion.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/autopred.js"></script>
+
+
+</head>
+<body onload="processCheckDB();">
+<div class="container-fluid">
+    <div class="row" style="background-color:#0747A6;">
+      <div class="col-lg-3">
+        <img src="img/logo.png"  alt="icon" width="150" height="100">
+      </div>
+      <div class="col-lg-6">
+        <span style="font-size:400%;color:white;"><center>SF Movies.</center></span></h1>
+      </div> 
+      <div class="col-lg-3">
+        <img src="logo.png"  alt="icon" width="150" height="100">
+      </div>   
+</div>
+<div class="container">
+  <div class="row">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6">
+    <h3 class="text-center text-primary"style="font-size:200%;">Enter City Name</h3>
+    <center>
+    <span id="error"></span>
+    
+    <div class="form-group">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Enter City Name" name="city" id="city" autofocus onkeyup="isEmpty();">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" id="submitweather" type="button">Search</button>
+          </span>
+      </div>
+    </div>
+  </div>  <div class="col-lg-3"></div>
+  </center>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">  
+  
+  <div id="show"></div>
+  </div>
+  <div class="col-lg-6">  
+  <br>      
+          <div id="googleMap" style="width:100%;height:400px; "></div>
+  </div>
+</div>
+</div>
+<div class="footer">
+  <div class="container">
+     <div class="row text-center" style="padding-top:20px;">
+          <p style="color:white; font-size:20px;">&copy; Design And Developed By: <a href="www.linkedin.com/in/iamrishiraj"><span style="color:yellow;">Rishiraj Mehta</span></a></p>    
+  </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
